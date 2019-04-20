@@ -1,1 +1,3 @@
-console.log('test');
+import Map from './Map';
+
+Map({test: 1});

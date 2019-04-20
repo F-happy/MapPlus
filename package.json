@@ -4,6 +4,7 @@
   "description": "map & list ++",
   "main": "dist/index.js",
   "scripts": {
+    "build": "tsc -b ./ && echo \"编译完成!\" && exit 0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +21,10 @@
   },
   "homepage": "https://github.com/F-happy/MapPlus#readme",
   "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "jest": "^24.7.1",
     "typescript": "^3.4.4"
   }
 }
