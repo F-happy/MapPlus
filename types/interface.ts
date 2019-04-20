@@ -3,19 +3,19 @@ type arrayFunction = (value: any, index: number, array: any[]) => boolean;
 interface IBase {
     readonly size: number;
 
-    set(key: any, value: any): void;
+    set(key: any, value: any): this;
 
-    get(key: any, defaultValue?: any): void;
+    get(key: any, defaultValue?: any): any;
 
-    setIn(path: any[], value: any): void;
+    setIn(path: any[], value: any): this;
 
-    getIn(path: string[], defaultValue?: any): void;
+    getIn(path: string[], defaultValue?: any): any;
 
-    delete(key: any): void;
+    delete(key: any): this;
 
-    deleteIn(path: any[]): void;
+    deleteIn(path: any[]): this;
 
-    clear(): void;
+    clear(): this;
 
     first(): any;
 

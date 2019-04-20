@@ -1,3 +1,5 @@
 import Map from './Map';
 
-Map({test: 1});
+const a = Map({test: 1});
+
+console.log(a.size);
