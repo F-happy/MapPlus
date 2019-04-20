@@ -1,0 +1,25 @@
+{
+  "name": "mapplus",
+  "version": "1.0.0",
+  "description": "map & list ++",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/F-happy/MapPlus.git"
+  },
+  "keywords": [
+    "map"
+  ],
+  "author": "fu.huixiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/F-happy/MapPlus/issues"
+  },
+  "homepage": "https://github.com/F-happy/MapPlus#readme",
+  "devDependencies": {
+    "typescript": "^3.4.4"
+  }
+}
